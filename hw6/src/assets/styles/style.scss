@@ -1,0 +1,72 @@
+.list-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.top-list{
+    width: 800px;
+    height: 60px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: lightsteelblue;
+}
+
+.list-btn{
+    width: 800px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: darkseagreen;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstBtn{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+.login-btn{
+    height: 25px;
+    width: 80px;
+    background-color: burlywood;
+}
+
+.add-btn{
+    height: 35px;
+    width: 60px;
+}
+
+input{
+    width: 220px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.del-btn{
+    position: absolute;
+    top: 24px;
+    right: 5px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: indianred;
+}
+
+.line{
+    position: relative;
+}
+
+span {
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 2px;
+}
