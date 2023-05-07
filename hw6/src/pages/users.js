@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Header } from "../components/header";
 
 export const Users = () => {
-    const [list, setList] = useState([{ name: 'name1', surname: 'surname1', email: 'email@1', id: '1' },
+    const [list, setList] = useState([{ name: 'name1', surname: 'surname1', email: 'email@1', id: Math.random() },
     { name: 'name2', surname: 'surname2', email: 'email@2', id: Math.random() },
     { name: 'name3', surname: 'surname3', email: 'email@3', id: Math.random() },
     { name: 'name4', surname: 'surname4', email: 'email@4', id: Math.random() },
